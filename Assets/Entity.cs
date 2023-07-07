@@ -6,7 +6,7 @@ public class Entity
         selfHealth=health;
     }
 
-    public getHealth(){
-        return health;
+    public Health getHealth(){
+        return selfHealth;
     }
 }
