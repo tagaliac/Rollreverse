@@ -2,8 +2,8 @@ public class Entity
 {
     private Health selfHealth;
 
-    public Entity(Health health){
-        selfHealth=health;
+    public Entity(int maxHealth){
+        selfHealth=new Health(maxHealth);
     }
 
     public Health getHealth(){
